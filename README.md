@@ -1,4 +1,4 @@
-# "Bouncing Ball Simulator"
+# Bouncing Ball Simulator
 
 ![Diagrama de Clases](ball.png)
 
@@ -14,13 +14,13 @@ El proyecto está organizado de la siguiente manera:
 
 - **BouncingBall**: Define la estructura de la bola con sus atributos.
 - **BouncingBallSimulator**: Maneja la simulación del movimiento de la bola usando la física.
-- **PhysicsEngine**: Contiene los métodos para calcular la física del movimiento de la bola.
-- **ScreenCoordinates**: Define las coordenadas y métodos para convertirlas.
+- **Physics**: Contiene los métodos para calcular la física del movimiento de la bola.
+- **Coordinates**: Define las coordenadas y métodos para convertirlas.
 - **BouncingBallDisplay**: Interfaz que define los métodos para dibujar y manejar eventos de la bola.
 - **SwingBouncingBallDisplay**: Implementa la interfaz `BouncingBallDisplay` y maneja la visualización y eventos de la bola.
 - **BouncingBallPresenter**: Controlador que maneja la simulación y la interacción entre la vista y el modelo.
-- **BouncingBallMainFrame**: Configura la ventana principal de la aplicación.
-- **BouncingBallSimulatorMain**: Clase principal que inicia la aplicación.
+- **MainFrame**: Configura la ventana principal de la aplicación.
+- **Main**: Clase principal que inicia la aplicación.
 
 # Conclusión
 
